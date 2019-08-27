@@ -1,4 +1,8 @@
-学习手册（生命不息，学习不止）
+学习路程（生命不息，学习不止）：
+  - 非科班 CS专业，硕士期间自学编程。最开始从 PHP 起家，最喜欢 Laravel 框架以及它所包含的设计模式
+  - 后因工作需要，转移到大前端。Vue、Angular、React 都撸过项目，喜欢 Vue 的渐进式即插即用，喜欢 React 的 JXS，喜欢 Koa 的洋葱模型以及面向切面编程，Nodejs 异步非阻塞
+  - 我的数学自我感觉比较好，如果不玩 AI 真是浪费了我的数学天赋。比较专注于 NLP 以及 CV 领域的目标检测
+  - 业余喜欢炒股，主动投资者，立志做一名全职 Quant。找到属于自己的 α，以期实现财富自由
 
 ## 目录
 
@@ -10,9 +14,15 @@
   - [NLP](#NLP)
   - [其他](#其他)
 - [Web 开发](#Web-开发)
+  - [JavaScript](#JavaScript)
   - [Vue](#Vue)
   - [React](#React)
   - [Nodejs](#Nodejs)
+  - [PHP](#PHP)
+  - [MySQL](#MySQL)
+  - [Nginx](#Nginx)
+  - [Docker](#Docker)
+- [WebRTC](#WebRTC)
 - [量化](#量化)
 
 ## 人工智能
@@ -97,3 +107,63 @@
 1. [Grokking Deep Learning](https://livebook.manning.com/#!/book/grokking-deep-learning/)
 1. [让产品经理全面理解深度学习](https://easyai.tech/blog/65pdf-pm-understand-dl/)（中文）
 1. [面向机器学习的特征工程](http://fe4ml.apachecn.org/#/)（中文）
+
+
+## Web 开发
+
+### JavaScript
+1. [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
+1. [JavaScript 编程精解](https://wizardforcel.gitbooks.io/eloquent-js-3e/content/)
+1. [理解 ES6](https://github.com/nzakas/understandinges6)
+1. [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
+1. [深入剖析 JavaScriptCore](https://xiaozhuanlan.com/topic/6812459370)
+1. [常见的 JavaScript 内存泄露](https://github.com/zhansingsong/js-leakage-patterns)
+1. [从浏览器多进程到JS单线程](http://www.dailichun.com/2018/01/21/js_singlethread_eventloop.html)
+
+### Vue
+1. [滴滴 Vue 源码解析](https://github.com/DDFE/DDFE-blog)
+1. [剖析 Vue 原理 & 实现双向绑定 MVVM](https://github.com/DMQ/mvvm)
+1. [基于 Vue 实现后台系统按钮级权限控制](https://github.com/tower1229/Vue-Access-Control)
+1. [Vue + axios 实现登录拦截、登出、拦截器](https://github.com/superman66/vue-axios-github?utm_source=tuicool&utm_medium=referral)
+1. [Vue2.1.7 源码学习](http://hcysun.me/2017/03/03/Vue%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/)
+
+### React
+1. [重新思考 Redux](https://rematch.gitbook.io/handbook/)
+1. [React.js 小书](http://huziketang.mangojuice.top/books/react/)
+1. [React 编程模式](https://github.com/krasimir/react-in-patterns)
+1. [深度剖析：如何实现一个 Virtual DOM 算法](https://github.com/livoras/blog/issues/13)
+1. [一起理解 Virtual DOM](https://www.jianshu.com/p/bef1c1ee5a0e)
+
+### Nodejs
+1. [Koa.js 设计模式-学习笔记](https://chenshenhai.github.io/koajs-design-note/)
+1. [Node 定时器详解](http://www.ruanyifeng.com/blog/2018/02/node-event-loop.html)
+1. [Node 调试工具入门教程](http://www.ruanyifeng.com/blog/2018/03/node-debugger.html)
+1. [从头实现一个 koa 框架](https://cnodejs.org/topic/5abb4dcd5b8d68f72c14732d)
+1. [如何通过饿了么 Node.js 面试](https://elemefe.github.io/node-interview/#/sections/zh-cn/)
+1. [Node.js 的线程和进程详解](https://zhuanlan.zhihu.com/p/30743785)
+1. [不要混淆 nodejs 和浏览器中的 event loop](https://cnodejs.org/topic/5a9108d78d6e16e56bb80882)
+1. [Koa 源码解析](https://cnodejs.org/topic/5ac2f0ae96f344940fbbaca6)
+
+### PHP
+1. [PHP: The Right Way](http://laravel-china.github.io/php-the-right-way)
+1. [PHP 开发者实践](https://ryancao.gitbooks.io/php-developer-prepares/content/)
+1. [PHP 启示录](https://www.awaimai.com/php)
+1. [PHP Best Practices](https://phpbestpractices.org/)
+1. [Awesome PHP](https://github.com/zhangyake/awesome-php-zh_CN)
+1. [构建自己的 PHP 框架](https://learnku.com/articles/5519/build-your-own-php-framework)
+1. [Laravel 的生命周期](https://phperzh.com/articles/3118)
+1. [laravel 源码详解](https://leoyang90.gitbooks.io/laravel-source-analysis/content/)
+1. [Laravel 的十八个最佳实践](https://learnku.com/articles/12762/eighteen-best-practices-of-laravel)
+1. [FastCgi 与 PHP-fpm 之间的关系](https://learnku.com/articles/5619/the-relationship-between-fastcgi-and-php-fpm)
+1. [Laravel 学习笔记 —— 神奇的服务容器](https://learnku.com/articles/789/laravel-learning-notes-the-magic-of-the-service-container)
+1. [S.O.L.I.D 面向对象设计和编程（OOD&OOP）](https://learnku.com/articles/4160/solid-notes-on-object-oriented-design-and-programming-oodoop)
+
+### MySQL
+
+### Nginx
+
+### Docker
+
+## WebRTC
+
+## 量化
