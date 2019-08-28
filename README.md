@@ -1,11 +1,11 @@
 学习路程（生命不息，学习不止）：
-  - 非科班 CS专业，硕士期间自学编程。最开始从 PHP 起家，最喜欢 Laravel 框架以及它所包含的设计模式
+  - 非科班 CS 专业，硕士期间自学编程。最开始从 PHP 起家，最喜欢 Laravel 框架以及它所包含的设计模式
   - 后因工作需要，转移到大前端。Vue、Angular、React 都撸过项目，喜欢 Vue 的渐进式即插即用，喜欢 React 的 JXS，喜欢 Koa 的洋葱模型以及面向切面编程，Nodejs 异步非阻塞
   - 我的数学自我感觉比较好，如果不玩 AI 真是浪费了我的数学天赋。比较专注于 NLP 以及 CV 领域的目标检测
   - 业余喜欢炒股，主动投资者，立志做一名全职 Quant。找到属于自己的 α，以期实现财富自由
 
 ## 目录
-
+- [计算机基础](#计算机基础)
 - [人工智能](#人工智能)
   - [通读材料](#通读材料)
   - [机器学习](#机器学习)
@@ -14,6 +14,7 @@
   - [NLP](#NLP)
   - [其他](#其他)
 - [Web 开发](#Web-开发)
+  - [CSS](#CSS)
   - [JavaScript](#JavaScript)
   - [Vue](#Vue)
   - [React](#React)
@@ -22,8 +23,15 @@
   - [MySQL](#MySQL)
   - [Nginx](#Nginx)
   - [Docker](#Docker)
+- [区块链](#区块链)
 - [WebRTC](#WebRTC)
 - [量化](#量化)
+
+## 计算机基础
+1. [Build Your Own Lisp](https://ksco.gitbooks.io/build-your-own-lisp/)
+1. [互联网协议入门](http://www.ruanyifeng.com/blog/2012/05/internet_protocol_suite_part_i.html)
+1. [软件工程师需要了解的网络知识：从铜线到 HTTP](https://lvwenhan.com/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/485.html)
+1. [Data Structures Reference](https://www.interviewcake.com/data-structures-reference)
 
 ## 人工智能
 
@@ -43,12 +51,14 @@
 1. [机器学习中的熵、条件熵、相对熵和交叉熵](https://www.cnblogs.com/kyrieng/p/8694705.html)
 1. [极大似然估计与贝叶斯估计](https://blog.csdn.net/liu1194397014/article/details/52766760)
 1. [批量梯度下降(BGD)、随机梯度下降(SGD)、小批量梯度下降(MBGD)](https://www.cnblogs.com/lliuye/p/9451903.html)
-1. [PCA的数学原理](http://blog.codinglabs.org/articles/pca-tutorial.html)
+1. [PCA 的数学原理](http://blog.codinglabs.org/articles/pca-tutorial.html)
 1. [最大似然估计（MLE）和最大后验概率（MAP）](https://blog.csdn.net/bertdai/article/details/78596423)
 1. [CS229课程-Part III 广义线性模型](https://blog.csdn.net/gongxifacai_believe/article/details/78208940?utm_source=gold_browser_extension)
 1. [浅谈线性、非线性和广义线性回归模型](https://www.cnblogs.com/hxsyl/p/5590589.html)
 1. [特定条件下结构风险最小化等价于最大后验概率估计](https://www.jianshu.com/p/10ae73edfc8c)
-1. [决策树、GBDT、XGBoost和LightGBM之GBDT](https://blog.csdn.net/linxid/article/details/80147136)
+1. [XGBoost Documentation](https://xgboost.readthedocs.io/en/latest/index.html)
+1. [决策树、GBDT、XGBoost 和 LightGBM 之 GBDT](https://blog.csdn.net/linxid/article/details/80147136)
+1. [GBDT 要点总结](https://www.cnblogs.com/ModifyRong/p/7744987.html)
 
 ### 特征工程
 1. [面向机器学习的特征工程](http://fe4ml.apachecn.org/#/)（中文）
@@ -82,14 +92,14 @@
 
 ### NLP
 1. [词向量](http://huaxiaozhuan.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/chapters/8_word_representation.html)
-1. [Transformer图解](http://fancyerii.github.io/2019/03/09/transformer-illustrated/)
-1. [TransformerXL：因为XL，所以更牛](https://mp.weixin.qq.com/s/Xxk6n6r0lSuybjKlwzLAnw)
-1. [Transformer-XL解读（论文 + PyTorch源码）](https://blog.csdn.net/magical_bubble/article/details/89060213)
-1. [BERT模型详解](http://fancyerii.github.io/2019/03/09/bert-theory/)
-1. [BERT模型详解视频](https://v.qq.com/x/page/j0855zl9a9r.html)
-1. [XLNet原理](http://fancyerii.github.io/2019/06/30/xlnet-theory/)
+1. [Transformer 图解](http://fancyerii.github.io/2019/03/09/transformer-illustrated/)
+1. [TransformerXL：因为 XL，所以更牛](https://mp.weixin.qq.com/s/Xxk6n6r0lSuybjKlwzLAnw)
+1. [Transformer-XL 解读（论文 + PyTorch 源码）](https://blog.csdn.net/magical_bubble/article/details/89060213)
+1. [BERT 模型详解](http://fancyerii.github.io/2019/03/09/bert-theory/)
+1. [BERT 模型详解视频](https://v.qq.com/x/page/j0855zl9a9r.html)
+1. [XLNet 原理](http://fancyerii.github.io/2019/06/30/xlnet-theory/)
 1. [XLnet：GPT 和 BERT 的合体，博采众长，所以更强](https://mp.weixin.qq.com/s/qzAN6VlKcfqmpX9kQCJ7Gg)
-1. [NLP 中的预训练语言模型总结(单向模型、BERT系列模型、XLNet)](https://zhuanlan.zhihu.com/p/76912493)
+1. [NLP 中的预训练语言模型总结(单向模型、BERT 系列模型、XLNet)](https://zhuanlan.zhihu.com/p/76912493)
 1. [XLNet 运行机制及和 Bert 的异同比较](https://zhuanlan.zhihu.com/p/70257427)
 1. [从 one-hot 到 BERT，带你一步步理解 BERT](https://mp.weixin.qq.com/s/-adR04z0h9sNLy0OE7-zsw)
 
@@ -100,7 +110,7 @@
 1. [深度学习/机器学习面试笔记](https://github.com/imhuay/Interview_Notes-Chinese)（中文）
 1. [数据挖掘教材](https://www-users.cs.umn.edu/~kumar001/dmbook/index.php)
 1. [机器学习解释](https://christophm.github.io/interpretable-ml-book/)
-1. [TensorFlow-Course](https://github.com/open-source-for-science/TensorFlow-Course)
+1. [TensorFlow Course](https://github.com/open-source-for-science/TensorFlow-Course)
 1. [基于模型的机器学习](http://mbmlbook.com/)
 1. [Deep Learning Project](https://github.com/Spandan-Madan/DeepLearningProject)
 1. [强化学习导论](http://incompleteideas.net/book/the-book.html)（第二版）
@@ -111,6 +121,12 @@
 
 ## Web 开发
 
+### CSS
+1. [Sass 中文文档](https://www.sass.hk/docs/)
+1. [Flex 布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
+1. [学习 CSS 布局](http://zh.learnlayout.com/toc.html)
+1. [You-need-to-know-css](https://lhammer.cn/You-need-to-know-css/#/)
+
 ### JavaScript
 1. [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
 1. [JavaScript 编程精解](https://wizardforcel.gitbooks.io/eloquent-js-3e/content/)
@@ -119,6 +135,7 @@
 1. [深入剖析 JavaScriptCore](https://xiaozhuanlan.com/topic/6812459370)
 1. [常见的 JavaScript 内存泄露](https://github.com/zhansingsong/js-leakage-patterns)
 1. [从浏览器多进程到JS单线程](http://www.dailichun.com/2018/01/21/js_singlethread_eventloop.html)
+1. [JavaScript 开发者新闻](https://jsernews.com/)
 
 ### Vue
 1. [滴滴 Vue 源码解析](https://github.com/DDFE/DDFE-blog)
@@ -159,11 +176,29 @@
 1. [S.O.L.I.D 面向对象设计和编程（OOD&OOP）](https://learnku.com/articles/4160/solid-notes-on-object-oriented-design-and-programming-oodoop)
 
 ### MySQL
+1. [MySQL 索引背后的数据结构及算法原理](http://blog.codinglabs.org/articles/theory-of-mysql-index.html)
+1. [MySQL 索引设计概要](https://draveness.me/sql-index-intro)
+1. [How does a relational database work](http://coding-geek.com/how-databases-work/?print=print)
 
 ### Nginx
+1. [OpenResty 最佳实践](https://moonbingbing.gitbooks.io/openresty-best-practices/content/index.html)
+1. [Nginx 变量漫谈](https://www.kancloud.cn/leolee2356/nginx_var/232113)
+1. [Nginx 常用配置](https://learnku.com/laravel/t/2583/nginx-common-configuration)
 
 ### Docker
+1. [Docker — 从入门到实践](https://github.com/yeasy/docker_practice)
+1. [Docker 微服务教程](http://www.ruanyifeng.com/blog/2018/02/docker-wordpress-tutorial.html)
+1. [Awesome Docker](https://github.com/veggiemonk/awesome-docker#where-to-start)
+
+## 区块链
+1. [一个故事告诉你比特币的原理及运作机制](http://blog.codinglabs.org/articles/bitcoin-mechanism-make-easy.html?utm_source=coffeephp.com)，了解区块链基本常识，纯粹为了装 X
+1. [区块链入门教程](http://www.ruanyifeng.com/blog/2017/12/blockchain-tutorial.html)
 
 ## WebRTC
+1. [点对点视频通话](https://github.com/zmecust/p2p-webrtc)，Demo
+1. [多人视频通话](https://github.com/zmecust/mutil-webrtc)，Demo
 
 ## 量化
+1. [股票多因子模型的回归检验](https://zhuanlan.zhihu.com/p/40984029)，该专栏一系列文章都值得观看
+1. [QuantStart Articles](https://www.quantstart.com/articles)
+1. [Barra 系列](https://zhuanlan.zhihu.com/p/68110181)，值得一看
