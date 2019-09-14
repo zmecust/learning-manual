@@ -59,6 +59,7 @@
 1. [XGBoost Documentation](https://xgboost.readthedocs.io/en/latest/index.html)
 1. [决策树、GBDT、XGBoost 和 LightGBM 之 GBDT](https://blog.csdn.net/linxid/article/details/80147136)
 1. [GBDT 要点总结](https://www.cnblogs.com/ModifyRong/p/7744987.html)
+1. [图解NumPy | Numpy入门教程](https://jalammar.github.io/visual-numpy/)
 
 ### 特征工程
 1. [面向机器学习的特征工程](http://fe4ml.apachecn.org/#/)（中文）
